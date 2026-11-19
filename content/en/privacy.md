@@ -1,16 +1,16 @@
 ---
 title: Privacy Policy
-description: Learn how Markdown Resume protects your data — local-first storage, analytics, and data sharing practices.
-lastModified: 2026-07-21T00:00:00Z
+description: Learn how With Markdown protects your data — local-first storage, analytics, and data sharing practices.
+lastModified: 2026-11-19T00:00:00Z
 ---
 
-Markdown Resume is designed as a **local-first application**.
-You can create and manage your résumés without creating an account or
+With Markdown is designed as a **local-first application**.
+You can create and manage your documents without creating an account or
 sending your personal content to an application server.
 
-## Résumé and image data
+## Document and image data
 
-Your résumé content, document settings, and uploaded images are stored
+Your document content, page settings, and uploaded images are stored
 locally in your browser using **IndexedDB**. This information
 stays on your device. It is not uploaded to, processed by, or saved on
 our servers.
@@ -30,12 +30,12 @@ measurements help us understand how the application is used and improve it.
 
 The analytics services may process technical information such as an IP
 address, browser and device information, referring pages, and analytics
-identifiers according to their own privacy practices. Your résumé text,
-document settings, and uploaded images are not included in analytics events.
+identifiers according to their own privacy practices. Your document text,
+page settings, and uploaded images are not included in analytics events.
 
 ## Data sharing
 
-We do not sell your personal information. Résumé and image data stored by
+We do not sell your personal information. Document and image data stored by
 this app are not shared with third parties because they remain in your
 browser. Analytics information is processed by Cloudflare and Google only
 for the measurement purposes described above.

@@ -33,7 +33,7 @@ settings:
   used: digunakan
   usage: Penggunaan
   quota: Kuota
-  resumes: Resume
+  resumes: Dokumen
   images: Gambar
   storage_estimate_note: Kuota penyimpanan adalah perkiraan dan dapat berbeda tergantung perangkat dan browser.
   storage_unavailable: Perkiraan penyimpanan tidak tersedia di browser ini.
@@ -42,7 +42,7 @@ settings:
   cached_icons: Ikon di-cache
   clear_svg_cache: Bersihkan Cache SVG
   danger_zone: Zona Berbahaya
-  danger_description: Hapus permanen semua resume, gambar, dan pengaturan aplikasi yang tersimpan di perangkat ini.
+  danger_description: Hapus permanen semua dokumen, gambar, dan pengaturan aplikasi yang tersimpan di perangkat ini.
   erase_all_data: Hapus Semua Konten dan Pengaturan
   erase_warning: Tindakan ini akan menghapus semua data dan mengembalikan aplikasi ke keadaan awal. Tindakan ini tidak dapat dibatalkan.
   type_delete: Ketik DELETE untuk mengonfirmasi.
@@ -60,28 +60,28 @@ dialog:
   close: Tutup dialog
 
 head:
-  title: Markdown Resume - Pembuat Resume Markdown Online Gratis
-  desc: Pembuat resume online gratis, memungkinkan Anda membuat resume dalam hitungan menit dengan Markdown!
-  keywords: pembuat resume, pembuat cv, pembuat curriculum vitae, resume markdown, resume.md
+  title: With Markdown — Tulis Dokumen dalam Markdown
+  desc: Editor local-first untuk menulis dokumen apa pun dalam Markdown — buku, makalah, resume, catatan — dengan pratinjau halaman langsung serta ekspor PDF, HTML, dan DOCX yang rapi.
+  keywords: editor dokumen markdown, tulis dokumen dalam markdown, pengolah kata markdown, markdown ke pdf, markdown ke docx, editor markdown
 
 landing:
-  hero: Tulis <span text-brand>resume</span> Anda dengan Markdown!
-  desc: adalah alat gratis dan open source yang dibuat untuk membangun dan mengelola resume Anda semudah mungkin, tanpa kehilangan privasi data Anda.
-  start: Buat Resume Saya
+  hero: Tulis apa saja dalam <span text-brand>Markdown</span>!
+  desc: Editor local-first untuk menulis apa saja dalam Markdown — buku, makalah, resume, catatan — dengan pratinjau halaman langsung serta ekspor PDF, HTML, dan DOCX yang rapi.
+  start: Mulai Menulis
   feats:
     - title: Sederhana dan Powerful
-      items: Kelola beberapa resume<br>Pratinjau real-time<br>Ekspor ke format PDF<br>Ekspor ke HTML<br>Ekspor ke MS Word (beta)<br>Galeri gambar<br>Sepenuhnya dapat disesuaikan<br>Pilih font dan tambahkan ikon<br>Dan <a href="https://github.com/junian/markdown-resume#features" target="_blank">fitur lainnya</a>
+      items: Kelola beberapa dokumen<br>Pratinjau real-time<br>Ekspor ke format PDF<br>Ekspor ke HTML<br>Ekspor ke MS Word (beta)<br>Galeri gambar<br>Sepenuhnya dapat disesuaikan<br>Pilih font dan tambahkan ikon<br>Dan <a href="https://github.com/junian/create-with-markdown#features" target="_blank">fitur lainnya</a>
     - title: Keamanan Utama
       items: Open source dan gratis<br>Data disimpan secara lokal<br>Tidak perlu login atau registrasi<br>Data Anda tidak pernah meninggalkan perangkat Anda<br>Tidak ada penyimpanan atau pemrosesan di server<br>Data Anda selalu milik Anda
   analytics_disclaimer: >
-    Saat diakses melalui <a href="https://junian.dev/markdown-resume/" target="_blank" class="underline">junian.dev/markdown-resume/</a>,
+    Saat diakses melalui <a href="https://withmarkdown.com/" target="_blank" class="underline">withmarkdown.com</a>,
     aplikasi ini menggunakan <strong>Google Analytics</strong> dan <strong>Cloudflare Web Analytics</strong> untuk mengukur
-    metrik penggunaan seperti jumlah halaman yang dilihat dan pengguna aktif. Konten resume dan gambar Anda tidak pernah dikumpulkan atau dikirimkan.
-    Dengan menggunakan aplikasi ini, Anda menyetujui <a href="https://junian.dev/privacy-policy/" target="_blank" class="underline">Kebijakan Privasi</a>.
+    metrik penggunaan seperti jumlah halaman yang dilihat dan pengguna aktif. Konten dokumen dan gambar Anda tidak pernah dikumpulkan atau dikirimkan.
+    Dengan menggunakan aplikasi ini, Anda menyetujui <a href="https://withmarkdown.com/privacy/" target="_blank" class="underline">Kebijakan Privasi</a>.
 
 resumes:
-  my_resumes: Resume Saya
-  description: Buat, atur, impor, dan cadangkan resume Anda.
+  my_resumes: Dokumen Saya
+  description: Buat, atur, impor, dan cadangkan dokumen Anda.
   created: "Dibuat: "
   updated: "Diperbarui: "
   new: Baru
@@ -106,7 +106,7 @@ toolbar:
   close: Tutup bilah sisi pemformatan
   file:
     text: Impor / Ekspor
-    import: Impor Resume
+    import: Impor Dokumen
     export_pdf: Ekspor PDF
     export_md: Ekspor Markdown
     export_html: Ekspor HTML
@@ -118,7 +118,7 @@ toolbar:
     btn: Perbaiki!
   migrate_iconify:
     text: Perbaiki Ikon
-    desc: Ubah markup span Iconify lama dan tag iconify-icon di resume ini menjadi sintaks ikon Markdown, misalnya ::icon::.
+    desc: Ubah markup span Iconify lama dan tag iconify-icon di dokumen ini menjadi sintaks ikon Markdown, misalnya ::icon::.
     btn: Migrasikan dan Simpan
   paper: Ukuran Kertas
   font_family: Jenis Font
@@ -141,7 +141,7 @@ zoom:
 
 images:
   my_images: Gambar Saya
-  description: Kelola gambar lokal untuk digunakan dalam resume Anda.
+  description: Kelola gambar lokal untuk digunakan dalam dokumen Anda.
   upload: Unggah Gambar
   sort_asc: Terlama Dulu
   sort_desc: Terbaru Dulu
@@ -156,10 +156,10 @@ images:
 
 notification:
   save: Perubahan Anda telah disimpan
-  switch: Beralih ke resume "{msg}"
-  delete: Resume "{msg}" telah dihapus
-  new: Resume baru dibuat
-  duplicate: Salinan resume "{old}" dibuat "{new}"
+  switch: Beralih ke dokumen "{msg}"
+  delete: Dokumen "{msg}" telah dihapus
+  new: Dokumen baru dibuat
+  duplicate: Salinan dokumen "{old}" dibuat "{new}"
   correct:
     yes: Memperbaiki {num} kata
     no: Semua huruf sudah benar!

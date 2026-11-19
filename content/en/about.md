@@ -1,33 +1,38 @@
 ---
 title: About
-description: Learn more about Markdown Resume — a local-first, open-source resume builder.
-lastModified: 2026-07-24T00:00:00Z
+description: Learn more about With Markdown — a local-first, open-source Markdown document editor.
+lastModified: 2026-11-19T00:00:00Z
 ---
 
-Welcome to **Markdown Resume** — your companion for crafting professional resumes.
-We believe that creating a resume should be simple, powerful, and secure. That's why we built
-this tool to help you manage your resumes with full control over your data privacy.
+Welcome to **With Markdown** — a simpler way to write documents of any kind.
+We believe writing should be simple, powerful, and private. That's why we built
+this editor on top of Markdown, so you can focus on the words instead of fighting
+a toolbar.
 
-## Why Markdown Resume?
+## Why With Markdown?
 
-Markdown Resume is designed as a **local-first application**, meaning your resumes, images,
+Most word processors hide your content inside a proprietary file format. With Markdown
+keeps your work in plain text that you can read, edit, and take anywhere.
+
+With Markdown is designed as a **local-first application**, meaning your documents, images,
 and all personal data stay right where they belong — on your device. No cloud storage,
-no data mining, and your sensitive content is never transmitted. Just you and your resume.
+no data mining, and your content is never transmitted. Just you and your writing.
 
-Whether you're a developer who loves Markdown, a creative professional who needs flexibility, or someone
-who simply wants full control over their job application materials, Markdown Resume gives you the tools to
-create stunning resumes that stand out.
+Whether you're writing a book, an academic paper, a resume, or meeting notes,
+With Markdown gives you a real page to write on and clean files to export when you're done.
 
 ## Powerful Features
 
-Don't let the simplicity fool you — Markdown Resume packs powerful features to help you create the perfect resume:
+Don't let the simplicity fool you — With Markdown packs the features you expect from
+a full word processor:
 
-- **Multiple Resumes** — Create and manage different resumes for different job applications
-- **Real-time Preview** — See changes instantly as you edit with live preview
-- **Multiple Export Formats** — Export to PDF, HTML, or MS Word (beta)
-- **Image Gallery** — Upload and manage your profile pictures and assets
-- **Full Customization** — Pick fonts, add icons, and style your resume exactly how you want
-- **Math Support** — Include mathematical expressions using KaTeX
+- **Any Document** — Write books, papers, resumes, reports, and notes in the same editor
+- **Real-time Preview** — See a paginated, print-accurate page as you type
+- **Multiple Export Formats** — Export to PDF, HTML, Markdown, or MS Word (DOCX)
+- **Page Controls** — A4 or US Letter, margins, line height, fonts, and theme colors
+- **Math & Cross-references** — Write equations with KaTeX and link sections together
+- **Image Gallery** — Upload images and reference them from your Markdown
+- **Automatic Page Breaks** — Content flows across pages like a real document
 - **Dark Mode** — Comfortable editing in any lighting condition
 - **Offline Ready** — Works offline with PWA support
 
@@ -35,11 +40,11 @@ Don't let the simplicity fool you — Markdown Resume packs powerful features to
 
 We take your privacy seriously. Here's how we protect your data:
 
-- **Local Storage** — All resume content and images stored in your browser's IndexedDB, never on our servers
-- **No Account Required** — Start creating immediately without sign-up or login
-- **No Data Collection (Resumes)** — Your resume content and images are never collected or transmitted
+- **Local Storage** — All document content and images are stored in your browser's IndexedDB, never on our servers
+- **No Account Required** — Start writing immediately without sign-up or login
+- **No Data Collection (Documents)** — Your document content and images are never collected or transmitted
 - **Open Source** — Fully transparent code that you can audit and contribute to
-- **You Own Your Data** — Export and backup your resumes anytime, full control always yours
+- **You Own Your Data** — Export and back up your documents anytime, full control always yours
 
 ## Credits & Acknowledgments
 
@@ -49,11 +54,12 @@ tools like this possible. Special thanks to these projects and libraries:
 | Project / Library | Purpose | License |
 | --- | --- | --- |
 | [ohmycv](https://github.com/Renovamen/oh-my-cv){target="_blank" rel="nofollow noopener noreferrer"} | Original project this was forked from | MIT License |
-| [Nuxt 3](https://nuxt.com){target="_blank" rel="nofollow noopener noreferrer"} | Web framework | MIT License |
-| [Vue 3](https://github.com/vuejs/vue-next){target="_blank" rel="nofollow noopener noreferrer"} | UI framework | MIT License |
+| [Nuxt](https://nuxt.com){target="_blank" rel="nofollow noopener noreferrer"} | Web framework | MIT License |
+| [Vue 3](https://github.com/vuejs/core){target="_blank" rel="nofollow noopener noreferrer"} | UI framework | MIT License |
 | [Vite](https://github.com/vitejs/vite){target="_blank" rel="nofollow noopener noreferrer"} | Build tool | MIT License |
-| [Zag](https://zagjs.com/){target="_blank" rel="nofollow noopener noreferrer"} | UI component primitives | MIT License |
-| [UnoCSS](https://github.com/antfu/unocss){target="_blank" rel="nofollow noopener noreferrer"} | Atomic CSS engine | MIT License |
+| [Nuxt UI](https://ui.nuxt.com){target="_blank" rel="nofollow noopener noreferrer"} | UI components | MIT License |
+| [Tailwind CSS](https://tailwindcss.com){target="_blank" rel="nofollow noopener noreferrer"} | Styling | MIT License |
+| [Reka UI](https://reka-ui.com/){target="_blank" rel="nofollow noopener noreferrer"} | UI component primitives | MIT License |
 | [Monaco Editor](https://github.com/microsoft/monaco-editor){target="_blank" rel="nofollow noopener noreferrer"} | Code editor | MIT License |
 | [KaTeX](https://github.com/KaTeX/KaTeX){target="_blank" rel="nofollow noopener noreferrer"} | Math rendering | MIT License |
 | [Pinia](https://pinia.vuejs.org/){target="_blank" rel="nofollow noopener noreferrer"} | State management | MIT License |
@@ -68,13 +74,13 @@ tools like this possible. Special thanks to these projects and libraries:
 
 ## Analytics
 
-When you use the hosted version at [junian.dev/markdown-resume/](https://junian.dev/markdown-resume/){target="_blank" rel="nofollow noopener noreferrer"},
+When you use the hosted version at [withmarkdown.com](https://withmarkdown.com/){target="_blank" rel="nofollow noopener noreferrer"},
 we use **Google Analytics** and **Cloudflare Web Analytics** to understand aggregate usage patterns.
 These help us improve the application by showing us things like page views and active users.
 
-**Important:** Your resume content, document settings, and uploaded images are *never* included
+**Important:** Your document content, document settings, and uploaded images are *never* included
 in analytics events. We only collect pseudonymous technical information to help us make the app better.
-Google Analytics is used in a pseudonymous manner, and no resume content is transmitted to analytics providers.
+Google Analytics is used in a pseudonymous manner, and no document content is transmitted to analytics providers.
 By using the hosted version, you agree to our [Privacy Policy](./privacy/).
 
 ## Get in Touch

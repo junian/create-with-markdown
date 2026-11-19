@@ -24,24 +24,32 @@ export const pwa: ModuleOptions = {
     scope,
     name: siteConfig.name,
     short_name: siteConfig.shortName,
-    theme_color: '#222',
+    theme_color: '#2563eb',
     background_color: '#fff',
     icons: [
       {
         src: `${siteConfig.baseURL}pwa-192x192.png`,
         sizes: '192x192',
         type: 'image/png',
+        purpose: 'any',
       },
       {
         src: `${siteConfig.baseURL}pwa-512x512.png`,
         sizes: '512x512',
         type: 'image/png',
+        purpose: 'any',
+      },
+      {
+        src: `${siteConfig.baseURL}pwa-512x512.png`,
+        sizes: '512x512',
+        type: 'image/png',
+        purpose: 'maskable',
       },
       {
         src: `${siteConfig.baseURL}favicon.svg`,
-        sizes: '512x512',
-        type: 'image/svg',
-        purpose: 'any maskable',
+        sizes: 'any',
+        type: 'image/svg+xml',
+        purpose: 'any',
       },
     ],
   },
@@ -52,6 +60,9 @@ export const pwa: ModuleOptions = {
     // static host needs the service worker to resolve a deep link.
     navigateFallback: `${scope}`,
     globPatterns: ['**/*.{js,css,html,otf,ttf,woff2,png,svg}'],
+    // Social preview art is only fetched by crawlers, so keep it out of the
+    // install-time precache.
+    globIgnores: ['**/og-image.png'],
     maximumFileSizeToCacheInBytes: 16000000,
     cleanupOutdatedCaches: true,
     runtimeCaching: [

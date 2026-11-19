@@ -1,6 +1,15 @@
 <template>
-  <UIcon
-    name="i-ri:markdown-fill"
-    class="text-brand"
-  />
+  <svg
+    viewBox="0 0 32 32"
+    width="1em"
+    height="1em"
+    fill="none"
+    aria-hidden="true"
+    focusable="false"
+  >
+    <path
+      d="M7 23V9h4.3L16 17.4 20.7 9H25v14h-4.3v-8.1L16 23l-4.7-8.1V23Z"
+      fill="currentColor"
+    />
+  </svg>
 </template>

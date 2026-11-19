@@ -4,6 +4,17 @@ This changelog summarizes the project from its initial commit through the latest
 
 ## 2026
 
+### November 19 — Rebranded to With Markdown
+
+- Renamed the project from **Markdown Resume** to **With Markdown** as it grows into a general Markdown document editor.
+- Added a new brand mark, favicon (with a dark-mode variant), PWA icons, apple-touch-icon, and Open Graph image.
+- Moved the default site to `https://withmarkdown.com`, served from the domain root.
+- Updated SEO titles, descriptions, keywords, and social metadata for document writing.
+- Renamed user-facing “Resume” labels to “Document” in all four interface languages; new documents are named “Untitled Document”.
+- Rewrote the landing hero, About page, and Privacy Policy for general document authoring.
+- Updated the README, acknowledgments, repository links, and package metadata.
+- Added a `CNAME` file for GitHub Pages custom-domain hosting.
+
 ### July 22 — Responsive editor, PWA routing, thumbnails, and Iconify 3
 
 - Fixed image paths and service-worker behavior for installations hosted at `/` or in a subdirectory.

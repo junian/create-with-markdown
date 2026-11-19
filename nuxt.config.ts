@@ -32,8 +32,8 @@ export default defineNuxtConfig({
   app: {
     // If host it on https://example.com
     //    baseURL: '/'
-    // Else if host it on https://example.com/markdown-resume/
-    //    baseURL: '/markdown-resume/'
+    // Else if host it on https://example.com/with-markdown/
+    //    baseURL: '/with-markdown/'
     baseURL: siteConfig.baseURL, // baseURL: '/<repository>/'
     buildAssetsDir: 'assets', // don't use "_" at the begining of the folder name to avoids
     head: {
@@ -41,14 +41,14 @@ export default defineNuxtConfig({
       link: [
         { rel: 'canonical', href: `${siteConfig.url}${siteConfig.baseURL}` },
         { rel: 'apple-touch-icon', href: `${siteConfig.baseURL}apple-touch-icon.png` },
-        { rel: 'mask-icon', href: `${siteConfig.baseURL}safari-pinned-tab.svg`, color: '#222' },
+        { rel: 'mask-icon', href: `${siteConfig.baseURL}safari-pinned-tab.svg`, color: '#2563eb' },
       ],
       meta: [
         { name: 'description', content: siteConfig.description },
-        { name: 'application-name', content: siteConfig.title },
-        { name: 'apple-mobile-web-app-title', content: siteConfig.title },
+        { name: 'application-name', content: siteConfig.name },
+        { name: 'apple-mobile-web-app-title', content: siteConfig.name },
         { name: 'msapplication-TileColor', content: '#fff' },
-        { property: 'og:site_name', content: siteConfig.title },
+        { property: 'og:site_name', content: siteConfig.name },
         { property: 'og:title', content: siteConfig.title },
         { property: 'og:description', content: siteConfig.description },
         { property: 'og:url', content: `${siteConfig.url}${siteConfig.baseURL}` },

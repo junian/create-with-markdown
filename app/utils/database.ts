@@ -107,7 +107,7 @@ export const newResume = async () => {
   const defaultFullName = getDefaultFullName()
   // Determine resume name and markdown name
   const resumeName = defaultFullName.trim()
-    ? `${defaultFullName.trim()} Resume`
+    ? `${defaultFullName.trim()} Document`
     : DEFAULT_NAME
   const markdownNameToUse = defaultFullName.trim() || 'Firstname Lastname'
   // Replace the default name in markdown
@@ -135,7 +135,7 @@ export const newResume = async () => {
  */
 export const saveResumesToLocal = async () => {
   const storage = (await getStorage()) || {}
-  downloadFile('MARKDOWN_RESUME_data.json', JSON.stringify(storage))
+  downloadFile('with-markdown-data.json', JSON.stringify(storage))
 }
 
 /**

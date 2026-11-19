@@ -1,59 +1,64 @@
 ---
 title: Tentang
-description: Pelajari lebih lanjut tentang Markdown Resume — pembuat resume local-first yang bersumber terbuka.
-lastModified: 2026-07-24T00:00:00Z
+description: Pelajari lebih lanjut tentang With Markdown — editor dokumen Markdown lokal-first dan open source.
+lastModified: 2026-11-19T00:00:00Z
 ---
 
-Selamat datang di **Markdown Resume** — teman Anda untuk membuat resume profesional.
-Kami percaya bahwa membuat resume haruslah sederhana, kuat, dan aman. Itulah sebabnya kami membangun
-alat ini untuk membantu Anda mengelola resume dengan kendali penuh atas privasi data Anda.
+Selamat datang di **With Markdown** — cara yang lebih sederhana untuk menulis dokumen apa pun.
+Kami percaya menulis harus sederhana, kuat, dan privat. Karena itu kami membangun
+editor ini di atas Markdown, agar Anda bisa fokus pada kata-kata alih-alih berkutat dengan bilah alat.
 
-## Mengapa Markdown Resume?
+## Mengapa With Markdown?
 
-Markdown Resume dirancang sebagai **aplikasi local-first**, artinya resume, gambar,
-dan semua data pribadi Anda tetap berada di tempatnya — di perangkat Anda. Tanpa penyimpanan cloud,
-tanpa penggalian data, dan konten sensitif Anda tidak pernah dikirim. Hanya Anda dan resume Anda.
+Sebagian besar pengolah kata menyembunyikan konten Anda di dalam format file proprietary. With Markdown
+menjaga karya Anda tetap berupa teks biasa yang dapat Anda baca, edit, dan bawa ke mana saja.
 
-Baik Anda pengembang yang menyukai Markdown, profesional kreatif yang membutuhkan fleksibilitas, atau seseorang
-yang hanya ingin memiliki kendali penuh atas materi lamaran kerja, Markdown Resume memberi Anda alat untuk
-membuat resume menakjubkan yang menonjol.
+With Markdown dirancang sebagai **aplikasi local-first**, artinya dokumen, gambar, dan semua data pribadi Anda
+tetap berada di tempat yang seharusnya — di perangkat Anda. Tanpa penyimpanan cloud,
+tanpa penambangan data, dan konten Anda tidak pernah dikirimkan. Hanya Anda dan tulisan Anda.
+
+Baik Anda menulis buku, makalah akademik, resume, atau catatan rapat,
+With Markdown memberi Anda halaman nyata untuk menulis dan file ekspor yang rapi saat selesai.
 
 ## Fitur Unggulan
 
-Jangan tertipu oleh kesederhanaannya — Markdown Resume memiliki fitur-fitur hebat untuk membantu Anda membuat resume yang sempurna:
+Jangan salah sangka karena kesederhanaannya — With Markdown memiliki fitur yang Anda harapkan
+dari pengolah kata lengkap:
 
-- **Beberapa Resume** — Buat dan kelola berbagai resume untuk berbagai lamaran kerja
-- **Pratinjau Real-time** — Lihat perubahan secara instan saat mengedit dengan pratinjau langsung
-- **Berbagai Format Ekspor** — Ekspor ke PDF, HTML, atau MS Word (beta)
-- **Galeri Gambar** — Unggah dan kelola foto profil serta aset Anda
-- **Kustomisasi Penuh** — Pilih font, tambahkan ikon, dan gaya resume Anda sesuai keinginan
-- **Dukungan Matematika** — Sertakan ekspresi matematika menggunakan KaTeX
-- **Mode Gelap** — Mengedit dengan nyaman dalam kondisi pencahayaan apa pun
+- **Dokumen Apa Pun** — Tulis buku, makalah, resume, laporan, dan catatan di editor yang sama
+- **Pratinjau Real-time** — Lihat halaman berhalaman yang akurat saat mencetak selagi Anda menulis
+- **Berbagai Format Ekspor** — Ekspor ke PDF, HTML, Markdown, atau MS Word (DOCX)
+- **Kontrol Halaman** — A4 atau US Letter, margin, jarak baris, font, dan warna tema
+- **Matematika & Referensi Silang** — Tulis rumus dengan KaTeX dan hubungkan bagian-bagian dokumen
+- **Galeri Gambar** — Unggah gambar dan gunakan dari Markdown Anda
+- **Pemisahan Halaman Otomatis** — Konten mengalir antarhalaman seperti dokumen sungguhan
+- **Mode Gelap** — Menulis dengan nyaman dalam kondisi pencahayaan apa pun
 - **Siap Offline** — Berfungsi offline dengan dukungan PWA
 
 ## Privasi & Keamanan
 
-Kami menganggap serius privasi Anda. Berikut cara kami melindungi data Anda:
+Kami sangat serius soal privasi Anda. Berikut cara kami melindungi data Anda:
 
-- **Penyimpanan Lokal** — Semua konten resume dan gambar disimpan di IndexedDB browser Anda, tidak pernah di server kami
-- **Tanpa Perlu Akun** — Mulai langsung membuat tanpa mendaftar atau masuk
-- **Tanpa Pengumpulan Data (Resume)** — Konten dan gambar resume Anda tidak pernah dikumpulkan atau dikirim
-- **Sumber Terbuka** — Kode yang sepenuhnya transparan yang dapat Anda audit dan kontribusikan
-- **Anda Memiliki Data Anda** — Ekspor dan cadangkan resume Anda kapan saja, kendali penuh selalu di tangan Anda
+- **Penyimpanan Lokal** — Semua konten dokumen dan gambar disimpan di IndexedDB browser Anda, bukan di server kami
+- **Tanpa Akun** — Mulai menulis segera tanpa pendaftaran atau login
+- **Tanpa Pengumpulan Data (Dokumen)** — Konten dokumen dan gambar Anda tidak pernah dikumpulkan atau dikirimkan
+- **Open Source** — Kode sepenuhnya transparan yang dapat Anda audit dan kontribusikan
+- **Data Anda Milik Anda** — Ekspor dan cadangkan dokumen kapan saja, kendali penuh selalu ada di tangan Anda
 
-## Kredit & Ucapan Terima Kasih
+## Kredit & Penghargaan
 
-Proyek ini berdiri di atas bahu para raksasa. Kami berterima kasih kepada komunitas sumber terbuka yang
-memungkinkan adanya alat-alat seperti ini. Terima kasih khusus untuk proyek dan pustaka berikut:
+Proyek ini berdiri di atas karya open source yang luar biasa. Kami berterima kasih kepada komunitas open source
+yang memungkinkan alat seperti ini. Terima kasih khusus kepada proyek dan pustaka berikut:
 
-| Proyek / Pustaka | Fungsi | Lisensi |
+| Proyek / Pustaka | Kegunaan | Lisensi |
 | --- | --- | --- |
 | [ohmycv](https://github.com/Renovamen/oh-my-cv){target="_blank" rel="nofollow noopener noreferrer"} | Proyek asli tempat ini di-fork | MIT License |
-| [Nuxt 3](https://nuxt.com){target="_blank" rel="nofollow noopener noreferrer"} | Kerangka web | MIT License |
-| [Vue 3](https://github.com/vuejs/vue-next){target="_blank" rel="nofollow noopener noreferrer"} | Kerangka UI | MIT License |
+| [Nuxt](https://nuxt.com){target="_blank" rel="nofollow noopener noreferrer"} | Kerangka web | MIT License |
+| [Vue 3](https://github.com/vuejs/core){target="_blank" rel="nofollow noopener noreferrer"} | Kerangka UI | MIT License |
 | [Vite](https://github.com/vitejs/vite){target="_blank" rel="nofollow noopener noreferrer"} | Alat build | MIT License |
-| [Zag](https://zagjs.com/){target="_blank" rel="nofollow noopener noreferrer"} | Primitif komponen UI | MIT License |
-| [UnoCSS](https://github.com/antfu/unocss){target="_blank" rel="nofollow noopener noreferrer"} | Mesin CSS atomik | MIT License |
+| [Nuxt UI](https://ui.nuxt.com){target="_blank" rel="nofollow noopener noreferrer"} | Komponen UI | MIT License |
+| [Tailwind CSS](https://tailwindcss.com){target="_blank" rel="nofollow noopener noreferrer"} | Styling | MIT License |
+| [Reka UI](https://reka-ui.com/){target="_blank" rel="nofollow noopener noreferrer"} | Primitif komponen UI | MIT License |
 | [Monaco Editor](https://github.com/microsoft/monaco-editor){target="_blank" rel="nofollow noopener noreferrer"} | Editor kode | MIT License |
 | [KaTeX](https://github.com/KaTeX/KaTeX){target="_blank" rel="nofollow noopener noreferrer"} | Rendering matematika | MIT License |
 | [Pinia](https://pinia.vuejs.org/){target="_blank" rel="nofollow noopener noreferrer"} | Manajemen state | MIT License |
@@ -68,17 +73,17 @@ memungkinkan adanya alat-alat seperti ini. Terima kasih khusus untuk proyek dan 
 
 ## Analitik
 
-Saat Anda menggunakan versi yang di-hosting di [junian.dev/markdown-resume/](https://junian.dev/markdown-resume/){target="_blank" rel="nofollow noopener noreferrer"},
+Saat Anda menggunakan versi yang di-hosting di [withmarkdown.com](https://withmarkdown.com/){target="_blank" rel="nofollow noopener noreferrer"},
 kami menggunakan **Google Analytics** dan **Cloudflare Web Analytics** untuk memahami pola penggunaan agregat.
-Ini membantu kami meningkatkan aplikasi dengan menunjukkan hal-hal seperti tampilan halaman dan pengguna aktif.
+Ini membantu kami menyempurnakan aplikasi dengan menunjukkan hal-hal seperti jumlah halaman yang dilihat dan pengguna aktif.
 
-**Penting:** Konten resume, pengaturan dokumen, dan gambar yang Anda unggah *tidak pernah* disertakan
-dalam peristiwa analitik. Kami hanya mengumpulkan informasi teknis pseudonim untuk membantu kami membuat aplikasi menjadi lebih baik.
-Google Analytics digunakan secara pseudonim, dan tidak ada konten resume yang dikirim ke penyedia analitik.
+**Penting:** Konten dokumen, pengaturan dokumen, dan gambar yang Anda unggah *tidak pernah* disertakan
+dalam peristiwa analitik. Kami hanya mengumpulkan informasi teknis pseudonim untuk membantu kami membuat aplikasi lebih baik.
+Google Analytics digunakan secara pseudonim, dan tidak ada konten dokumen yang dikirimkan ke penyedia analitik.
 Dengan menggunakan versi yang di-hosting, Anda menyetujui [Kebijakan Privasi](./privacy/) kami.
 
 ## Hubungi Kami
 
-Punya pertanyaan, masukan, atau ingin berkontribusi? Kami senang mendengarnya!
+Punya pertanyaan, masukan, atau ingin berkontribusi? Kami ingin mendengar dari Anda!
 Kunjungi [Junian.dev](https://www.junian.dev/){target="_blank" rel="nofollow noopener noreferrer"} atau lihat
-repositori untuk berpartisipasi.
+repositori untuk ikut terlibat.

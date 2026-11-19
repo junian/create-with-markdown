@@ -352,6 +352,7 @@
 </template>
 
 <script lang="ts" setup>
+import { siteConfig } from '~~/configs/siteConfig'
 import {
   getDefaultFullName,
   setDefaultFullName,
@@ -509,5 +510,5 @@ onMounted(async () => {
   await refreshSvgCacheCount()
 })
 
-useHead({ title: () => `${t('settings.title')} — Markdown Resume` })
+useHead({ title: () => `${t('settings.title')} — ${siteConfig.name}` })
 </script>

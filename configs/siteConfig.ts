@@ -1,13 +1,15 @@
+const siteUrl = process.env.NUXT_PUBLIC_SITE_URL || 'https://withmarkdown.com'
+const baseURL = process.env.NUXT_APP_BASE_URL || '/'
+
 export const siteConfig = {
-  name: 'Markdown Resume',
-  shortName: 'Resume.md',
-  cacheId: 'markdown-resume',
-  title: 'Free Markdown Resume App',
+  name: 'With Markdown',
+  shortName: 'WithMarkdown',
+  cacheId: 'with-markdown',
+  title: 'With Markdown — Write Documents in Markdown',
   description:
-    'Free online resume maker, allows you to create your resume in minutes with Markdown!',
-  image:
-    'https://www.junian.dev/img/b/R29vZ2xl/AVvXsEiqtAGRJE-GkyEUNR44rnmHypGIiNLF7LB2XVVblX0l1g4TLWuwjIRM-8JV1fhZViZifolvF3STooaj-3vMUHuQsZWXul_y-EJBAWvRHaSQ54zKJdX072hdFVJ-Xu4ReyICWQ1S0RMbY2ZCC1R12dzkI4xPMQpP4zVc4WyVOQMvn2LDghmWMWJv91SccHA/s1600/markdown-resume.jpg',
-  url: process.env.NUXT_PUBLIC_SITE_URL || 'https://www.junian.dev',
-  baseURL: process.env.NUXT_APP_BASE_URL || '/markdown-resume/',
+    'A local-first editor for writing any document in Markdown — books, papers, resumes — with live page preview and clean PDF, HTML, and DOCX exports.',
+  image: `${siteUrl}${baseURL}og-image.png`,
+  url: siteUrl,
+  baseURL,
   iconifyScriptURL: 'https://code.iconify.design/iconify-icon/3.0.2/iconify-icon.min.js',
 }

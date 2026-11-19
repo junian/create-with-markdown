@@ -3,7 +3,7 @@ import defaultResumeCSS from '~/assets/default-resume.css.txt?raw'
 import defaultResumeMarkdown from '~/assets/default-resume.md?raw'
 import { SYSTEM_CJK_FONT_FAMILY } from './data'
 
-export const DEFAULT_NAME = 'My Resume'
+export const DEFAULT_NAME = 'Untitled Document'
 
 export const DEFAULT_STYLES = {
   marginV: 48,

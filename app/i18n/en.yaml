@@ -33,7 +33,7 @@ settings:
   used: used
   usage: Usage
   quota: Quota
-  resumes: Resumes
+  resumes: Documents
   images: Images
   storage_estimate_note: Storage quota is an estimate and may vary by device and browser.
   storage_unavailable: Storage estimates are not available in this browser.
@@ -42,7 +42,7 @@ settings:
   cached_icons: Cached Icons
   clear_svg_cache: Clear SVG Cache
   danger_zone: Danger Zone
-  danger_description: Permanently erase every resume, image, and app setting stored on this device.
+  danger_description: Permanently erase every document, image, and app setting stored on this device.
   erase_all_data: Erase All Content and Settings
   erase_warning: This action will remove all data and return this app to its factory state. This cannot be undone.
   type_delete: Type DELETE to confirm.
@@ -60,28 +60,28 @@ dialog:
   close: Close dialog
 
 head:
-  title: Markdown Resume - Free Online Markdown Resume Maker
-  desc: Free online resume maker, allows you to create your resume in minutes with Markdown!
-  keywords: resume maker, cv maker, curriculum vitae maker, markdown resume, resume.md
+  title: With Markdown — Write Documents in Markdown
+  desc: A local-first editor for writing any document in Markdown — books, papers, resumes, notes — with live page preview and clean PDF, HTML, and DOCX exports.
+  keywords: markdown document editor, write documents in markdown, markdown word processor, markdown to pdf, markdown to docx, markdown editor
 
 landing:
-  hero: Write your <span text-brand>resume</span> in Markdown!
-  desc: is a free and open source tool created to build and manage your resumes as easily as possible, without losing the privacy of your data.
-  start: Create My Resume
+  hero: Write anything in <span text-brand>Markdown</span>!
+  desc: A local-first editor for writing anything in Markdown — books, papers, resumes, notes — with live page preview and clean PDF, HTML, and DOCX exports.
+  start: Start Writing
   feats:
     - title: Simple and Powerful
-      items: Manage multiple resumes<br>Real-time preview<br>Export to PDF format<br>Export to HTML<br>Export to MS Word (beta)<br>Image gallery<br>Fully customizable<br>Pick fonts and add icons<br>And <a href="https://github.com/junian/markdown-resume#features" target="_blank">more features</a>
+      items: Manage multiple documents<br>Real-time preview<br>Export to PDF format<br>Export to HTML<br>Export to MS Word (beta)<br>Image gallery<br>Fully customizable<br>Pick fonts and add icons<br>And <a href="https://github.com/junian/create-with-markdown#features" target="_blank">more features</a>
     - title: Security First
       items: Open source and free<br>Data are saved locally<br>No login or registration required<br>Your data never leave your device<br>No server-side storage or processing<br>You own your data, always
   analytics_disclaimer: >
-    When accessed via <a href="https://junian.dev/markdown-resume/" target="_blank" class="underline">junian.dev/markdown-resume/</a>,
+    When accessed via <a href="https://withmarkdown.com/" target="_blank" class="underline">withmarkdown.com</a>,
     this app uses <strong>Google Analytics</strong> and <strong>Cloudflare Web Analytics</strong> to measure aggregate
-    usage metrics such as page views and active users. Your resume content and images are never collected or transmitted.
-    By using this app, you agree to the <a href="https://junian.dev/privacy-policy/" target="_blank" class="underline">Privacy Policy</a>.
+    usage metrics such as page views and active users. Your document content and images are never collected or transmitted.
+    By using this app, you agree to the <a href="https://withmarkdown.com/privacy/" target="_blank" class="underline">Privacy Policy</a>.
 
 resumes:
-  my_resumes: My Resumes
-  description: Create, organize, import, and back up your resumes.
+  my_resumes: My Documents
+  description: Create, organize, import, and back up your documents.
   created: "Created: "
   updated: "Updated: "
   new: New
@@ -106,7 +106,7 @@ toolbar:
   close: Close formatting sidebar
   file:
     text: Import / Export
-    import: Import Resume
+    import: Import Document
     export_pdf: Export PDF
     export_md: Export Markdown
     export_html: Export HTML
@@ -118,7 +118,7 @@ toolbar:
     btn: Correct it!
   migrate_iconify:
     text: Fix Icons
-    desc: Convert legacy Iconify span and iconify-icon markup in this resume to Markdown icon syntax, e.g. ::icon::.
+    desc: Convert legacy Iconify span and iconify-icon markup in this document to Markdown icon syntax, e.g. ::icon::.
     btn: Migrate and Save
   paper: Paper Size
   font_family: Font Family
@@ -141,7 +141,7 @@ zoom:
 
 images:
   my_images: My Images
-  description: Manage images stored locally for use in your resumes.
+  description: Manage images stored locally for use in your documents.
   upload: Upload Image
   sort_asc: Oldest First
   sort_desc: Newest First
@@ -156,10 +156,10 @@ images:
 
 notification:
   save: Your changes have been saved
-  switch: Switched to resume "{msg}"
-  delete: Resume "{msg}" has been deleted
-  new: New resume created
-  duplicate: Created copy "{new}" of resume "{old}"
+  switch: Switched to document "{msg}"
+  delete: Document "{msg}" has been deleted
+  new: New document created
+  duplicate: Created copy "{new}" of document "{old}"
   correct:
     yes: Corrected {num} words
     no: All cases are correct!

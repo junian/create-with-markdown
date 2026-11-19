@@ -33,7 +33,7 @@ settings:
   used: usado
   usage: Uso
   quota: Cuota
-  resumes: Currículums
+  resumes: Documentos
   images: Imágenes
   storage_estimate_note: La cuota de almacenamiento es una estimación y puede variar según el dispositivo y el navegador.
   storage_unavailable: Las estimaciones de almacenamiento no están disponibles en este navegador.
@@ -42,7 +42,7 @@ settings:
   cached_icons: Iconos en caché
   clear_svg_cache: Vaciar caché de SVG
   danger_zone: Zona de riesgo
-  danger_description: Borra permanentemente todas las currículums, imágenes y ajustes de la app guardados en este dispositivo.
+  danger_description: Borra permanentemente todos los documentos, imágenes y ajustes de la app guardados en este dispositivo.
   erase_all_data: Borrar Todo el Contenido y los Ajustes
   erase_warning: Esta acción eliminará todos los datos y restaurará la app a su estado de fábrica. Esta acción no se puede deshacer.
   type_delete: Escribe DELETE para confirmar.
@@ -60,28 +60,28 @@ dialog:
   close: Cerrar diálogo
 
 head:
-  title: Markdown Resume - Creador de Currículums Online Gratuito
-  desc: Creador de currículums vitae en línea gratuito, te permite crear tu currículum en minutos con Markdown!
-  keywords: creador de currículum, creador de cv, creador de curriculum vitae, currículum markdown, resume.md
+  title: With Markdown — Escribe Documentos en Markdown
+  desc: Un editor local-first para escribir cualquier documento en Markdown — libros, artículos, currículums, notas — con vista previa de página en vivo y exportaciones limpias a PDF, HTML y DOCX.
+  keywords: editor de documentos markdown, escribir documentos en markdown, procesador de textos markdown, markdown a pdf, markdown a docx, editor markdown
 
 landing:
-  hero: Escribe tu <span text-brand>currículum</span> en Markdown!
-  desc: es una herramienta gratuita y de código abierto creada para construir y gestionar tus currículums lo más fácilmente posible, sin perder la privacidad de tus datos.
-  start: Crear Mi Currículum
+  hero: ¡Escribe lo que sea en <span text-brand>Markdown</span>!
+  desc: Un editor local-first para escribir lo que sea en Markdown — libros, artículos, currículums, notas — con vista previa de página en vivo y exportaciones limpias a PDF, HTML y DOCX.
+  start: Empezar a Escribir
   feats:
     - title: Simple y poderoso
-      items: Gestiona múltiples currículums<br>Vista previa en tiempo real<br>Exportar a PDF<br>Exportar a HTML<br>Exportar a MS Word (beta)<br>Galería de imágenes<br>Totalmente personalizable<br>Elige fuentes y agrega íconos<br>Y <a href="https://github.com/junian/markdown-resume#features" target="_blank">más funciones</a>
+      items: Gestiona múltiples documentos<br>Vista previa en tiempo real<br>Exportar a PDF<br>Exportar a HTML<br>Exportar a MS Word (beta)<br>Galería de imágenes<br>Totalmente personalizable<br>Elige fuentes y agrega íconos<br>Y <a href="https://github.com/junian/create-with-markdown#features" target="_blank">más funciones</a>
     - title: Seguridad Primero
       items: Open source y gratuito<br>Los datos se guardan en local<br>No se requiere inicio de sesión ni registro<br>Tus datos nunca salen de tu dispositivo<br>Sin almacenamiento ni procesamiento en el servidor<br>Tus datos son siempre tuyos
   analytics_disclaimer: >
-    Cuando se accede desde <a href="https://junian.dev/markdown-resume/" target="_blank" class="underline">junian.dev/markdown-resume/</a>,
+    Cuando se accede desde <a href="https://withmarkdown.com/" target="_blank" class="underline">withmarkdown.com</a>,
     esta aplicación utiliza <strong>Google Analytics</strong> y <strong>Cloudflare Web Analytics</strong> para medir
-    métricas de uso agregadas como visitas a páginas y usuarios activos. Tu currículum y tus imágenes nunca se recopilan ni se transmiten.
-    Al usar esta aplicación, aceptas la <a href="https://junian.dev/privacy-policy/" target="_blank" class="underline">Política de Privacidad</a>.
+    métricas de uso agregadas como visitas a páginas y usuarios activos. El contenido de tus documentos y tus imágenes nunca se recopilan ni se transmiten.
+    Al usar esta aplicación, aceptas la <a href="https://withmarkdown.com/privacy/" target="_blank" class="underline">Política de Privacidad</a>.
 
 resumes:
-  my_resumes: Mis Currículums
-  description: Crea, organiza, importa y respalda tus currículums.
+  my_resumes: Mis Documentos
+  description: Crea, organiza, importa y respalda tus documentos.
   created: "Creado: "
   updated: "Actualizado: "
   new: Nuevo
@@ -106,7 +106,7 @@ toolbar:
   close: Cerrar barra lateral de formato
   file:
     text: Importar / Exportar
-    import: Importar Currículum
+    import: Importar Documento
     export_pdf: Exportar PDF
     export_md: Exportar Markdown
     export_html: Exportar HTML
@@ -118,7 +118,7 @@ toolbar:
     btn: Corrígelo!
   migrate_iconify:
     text: Corregir Iconos
-    desc: Convierte el marcado de span de Iconify heredado y las etiquetas iconify-icon de este currículum a la sintaxis de iconos de Markdown, p. ej. ::icon::.
+    desc: Convierte el marcado de span de Iconify heredado y las etiquetas iconify-icon de este documento a la sintaxis de iconos de Markdown, p. ej. ::icon::.
     btn: Migrar y guardar
   paper: Tamaño de hoja
   font_family: Fuente
@@ -141,7 +141,7 @@ zoom:
 
 images:
   my_images: Mis Imágenes
-  description: Administra imágenes locales para usarlas en tus currículums.
+  description: Administra imágenes locales para usarlas en tus documentos.
   upload: Subir Imagen
   sort_asc: Más Antiguo Primero
   sort_desc: Más Reciente Primero
@@ -156,10 +156,10 @@ images:
 
 notification:
   save: Tus cambios han sido guardados
-  switch: Cambiado al currículum "{msg}"
-  delete: El currículum "{msg}" ha sido eliminado
-  new: Nuevo currículum creado
-  duplicate: Se ha creado la copia "{new}" del currículum "{old}"
+  switch: Cambiado al documento "{msg}"
+  delete: El documento "{msg}" ha sido eliminado
+  new: Nuevo documento creado
+  duplicate: Se ha creado la copia "{new}" del documento "{old}"
   correct:
     yes: Se han corregido {num} palabras
     no: ¡Todo el texto ya estaba correcto!

@@ -130,7 +130,7 @@ const externalLinks = computed(() => [
     coffee: true,
   },
   {
-    href: 'https://github.com/junian/markdown-resume/',
+    href: 'https://github.com/junian/create-with-markdown/',
     rel: 'nofollow noopener',
     icon: 'i-tabler:brand-github',
     label: 'GitHub',

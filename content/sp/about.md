@@ -1,59 +1,64 @@
 ---
 title: Acerca de
-description: Aprende más sobre Markdown Resume — un creador de currículums local-first y de código abierto.
-lastModified: 2026-07-24T00:00:00Z
+description: Conoce más sobre With Markdown — un editor de documentos Markdown local-first y de código abierto.
+lastModified: 2026-11-19T00:00:00Z
 ---
 
-Bienvenido a **Markdown Resume** — tu compañero para elaborar currículums profesionales.
-Creemos que crear un currículum debería ser simple, potente y seguro. Por eso construimos
-esta herramienta para ayudarte a gestionar tus currículums con control total sobre la privacidad de tus datos.
+Bienvenido a **With Markdown** — una forma más sencilla de escribir documentos de cualquier tipo.
+Creemos que escribir debe ser simple, potente y privado. Por eso creamos
+este editor sobre Markdown, para que puedas concentrarte en las palabras en lugar de pelear con una barra de herramientas.
 
-## ¿Por qué Markdown Resume?
+## ¿Por qué With Markdown?
 
-Markdown Resume está diseñado como una **aplicación local-first**, lo que significa que tus currículums, imágenes
-y todos tus datos personales permanecen donde deben estar: en tu dispositivo. Sin almacenamiento en la nube,
-sin minería de datos, y tu contenido sensible nunca se transmite. Solo tú y tu currículum.
+La mayoría de los procesadores de texto esconden tu contenido en un formato de archivo propietario. With Markdown
+mantiene tu trabajo en texto plano que puedes leer, editar y llevar a cualquier parte.
 
-Ya seas un desarrollador al que le encanta Markdown, un profesional creativo que necesita flexibilidad, o alguien
-que simplemente quiere control total sobre sus materiales de solicitud de empleo, Markdown Resume te brinda
-las herramientas para crear currículums impresionantes que se destaquen.
+With Markdown está diseñado como una **aplicación local-first**, lo que significa que tus documentos, imágenes
+y todos tus datos personales se quedan donde deben estar: en tu dispositivo. Sin almacenamiento en la nube,
+sin minería de datos y tu contenido nunca se transmite. Solo tú y tu escritura.
 
-## Funciones Potentes
+Ya sea que escribas un libro, un artículo académico, un currículum o notas de reunión,
+With Markdown te da una página real para escribir y archivos limpios para exportar al terminar.
 
-No te dejes engañar por la simplicidad: Markdown Resume incluye funciones potentes para ayudarte a crear el currículum perfecto:
+## Funciones potentes
 
-- **Múltiples Currículums** — Crea y gestiona diferentes currículums para diferentes solicitudes de empleo
-- **Vista Previa en Tiempo Real** — Ve los cambios al instante mientras editas con vista previa en vivo
-- **Múltiples Formatos de Exportación** — Exporta a PDF, HTML o MS Word (beta)
-- **Galería de Imágenes** — Sube y gestiona tus fotos de perfil y archivos
-- **Personalización Total** — Elige fuentes, agrega iconos y diseña tu currículum exactamente como quieras
-- **Soporte Matemático** — Incluye expresiones matemáticas con KaTeX
-- **Modo Oscuro** — Edita cómodamente en cualquier condición de iluminación
-- **Listo sin Conexión** — Funciona sin conexión con soporte PWA
+No te dejes engañar por su sencillez: With Markdown incluye las funciones que esperas
+de un procesador de textos completo:
 
-## Privacidad y Seguridad
+- **Cualquier documento** — Escribe libros, artículos, currículums, informes y notas en el mismo editor
+- **Vista previa en tiempo real** — Ve una página paginada y fiel a la impresión mientras escribes
+- **Múltiples formatos de exportación** — Exporta a PDF, HTML, Markdown o MS Word (DOCX)
+- **Control de página** — A4 o US Letter, márgenes, interlineado, fuentes y colores del tema
+- **Matemáticas y referencias cruzadas** — Escribe ecuaciones con KaTeX y enlaza secciones entre sí
+- **Galería de imágenes** — Sube imágenes y úsalas desde tu Markdown
+- **Saltos de página automáticos** — El contenido fluye entre páginas como un documento real
+- **Modo oscuro** — Edición cómoda con cualquier iluminación
+- **Listo sin conexión** — Funciona offline con soporte PWA
 
-Nos tomamos tu privacidad muy en serio. Así protegemos tus datos:
+## Privacidad y seguridad
 
-- **Almacenamiento Local** — Todo el contenido de tus currículums e imágenes se almacena en el IndexedDB de tu navegador, nunca en nuestros servidores
-- **Sin Necesidad de Cuenta** — Empieza a crear de inmediato sin registrarte ni iniciar sesión
-- **Sin Recopilación de Datos (Currículums)** — El contenido de tus currículums e imágenes nunca se recopila ni transmite
-- **Código Abierto** — Código totalmente transparente que puedes auditar y al que puedes contribuir
-- **Tú Eres Dueño de Tus Datos** — Exporta y haz copias de seguridad de tus currículums cuando quieras; el control total siempre es tuyo
+Nos tomamos muy en serio tu privacidad. Así protegemos tus datos:
 
-## Créditos y Agradecimientos
+- **Almacenamiento local** — Todo el contenido de los documentos y las imágenes se guarda en IndexedDB de tu navegador, nunca en nuestros servidores
+- **Sin cuenta** — Empieza a escribir de inmediato, sin registro ni inicio de sesión
+- **Sin recopilación de datos (documentos)** — El contenido de tus documentos y tus imágenes nunca se recopilan ni se transmiten
+- **Código abierto** — Código totalmente transparente que puedes auditar y mejorar
+- **Tus datos son tuyos** — Exporta y respalda tus documentos cuando quieras; el control es siempre tuyo
 
-Este proyecto se sostiene sobre los hombros de gigantes. Agradecemos a la comunidad de código abierto
-por hacer posibles herramientas como esta. Un agradecimiento especial a estos proyectos y bibliotecas:
+## Créditos y agradecimientos
 
-| Proyecto / Biblioteca | Función | Licencia |
+Este proyecto se apoya en el trabajo de gigantes. Agradecemos a la comunidad de código abierto por hacer
+posibles herramientas como esta. Gracias especiales a estos proyectos y librerías:
+
+| Proyecto / Librería | Propósito | Licencia |
 | --- | --- | --- |
 | [ohmycv](https://github.com/Renovamen/oh-my-cv){target="_blank" rel="nofollow noopener noreferrer"} | Proyecto original del que se hizo el fork | MIT License |
-| [Nuxt 3](https://nuxt.com){target="_blank" rel="nofollow noopener noreferrer"} | Framework web | MIT License |
-| [Vue 3](https://github.com/vuejs/vue-next){target="_blank" rel="nofollow noopener noreferrer"} | Framework de UI | MIT License |
+| [Nuxt](https://nuxt.com){target="_blank" rel="nofollow noopener noreferrer"} | Framework web | MIT License |
+| [Vue 3](https://github.com/vuejs/core){target="_blank" rel="nofollow noopener noreferrer"} | Framework de UI | MIT License |
 | [Vite](https://github.com/vitejs/vite){target="_blank" rel="nofollow noopener noreferrer"} | Herramienta de build | MIT License |
-| [Zag](https://zagjs.com/){target="_blank" rel="nofollow noopener noreferrer"} | Primitivas de componentes de UI | MIT License |
-| [UnoCSS](https://github.com/antfu/unocss){target="_blank" rel="nofollow noopener noreferrer"} | Motor CSS atómico | MIT License |
+| [Nuxt UI](https://ui.nuxt.com){target="_blank" rel="nofollow noopener noreferrer"} | Componentes de UI | MIT License |
+| [Tailwind CSS](https://tailwindcss.com){target="_blank" rel="nofollow noopener noreferrer"} | Estilos | MIT License |
+| [Reka UI](https://reka-ui.com/){target="_blank" rel="nofollow noopener noreferrer"} | Primitivas de componentes UI | MIT License |
 | [Monaco Editor](https://github.com/microsoft/monaco-editor){target="_blank" rel="nofollow noopener noreferrer"} | Editor de código | MIT License |
 | [KaTeX](https://github.com/KaTeX/KaTeX){target="_blank" rel="nofollow noopener noreferrer"} | Renderizado matemático | MIT License |
 | [Pinia](https://pinia.vuejs.org/){target="_blank" rel="nofollow noopener noreferrer"} | Gestión de estado | MIT License |
@@ -64,20 +69,20 @@ por hacer posibles herramientas como esta. Un agradecimiento especial a estos pr
 | [markdown-it](https://github.com/markdown-it/markdown-it){target="_blank" rel="nofollow noopener noreferrer"} | Análisis de Markdown | MIT License |
 | [@nuxtjs/i18n](https://i18n.nuxtjs.org/){target="_blank" rel="nofollow noopener noreferrer"} | Internacionalización | MIT License |
 | [@nuxtjs/color-mode](https://color-mode.nuxtjs.org/){target="_blank" rel="nofollow noopener noreferrer"} | Soporte de modo oscuro | MIT License |
-| [@vite-pwa/nuxt](https://vite-pwa-org.netlify.app/){target="_blank" rel="nofollow noopener noreferrer"} | Soporte PWA | MIT License |
+| [@vite-pwa/nuxt](https://vite-pwa-org.netlify.app/){target="_blank" rel="nofollow noopener noreferrer"} | Soporte de PWA | MIT License |
 
 ## Analítica
 
-Cuando usas la versión alojada en [junian.dev/markdown-resume/](https://junian.dev/markdown-resume/){target="_blank" rel="nofollow noopener noreferrer"},
-utilizamos **Google Analytics** y **Cloudflare Web Analytics** para comprender los patrones de uso agregados.
-Esto nos ayuda a mejorar la aplicación mostrándonos cosas como visitas a páginas y usuarios activos.
+Cuando usas la versión alojada en [withmarkdown.com](https://withmarkdown.com/){target="_blank" rel="nofollow noopener noreferrer"},
+usamos **Google Analytics** y **Cloudflare Web Analytics** para entender patrones de uso agregados.
+Esto nos ayuda a mejorar la aplicación mostrándonos cosas como páginas vistas y usuarios activos.
 
-**Importante:** El contenido de tu currículum, la configuración de tus documentos y las imágenes subidas *nunca*
-se incluyen en los eventos de analítica. Solo recopilamos información técnica seudónima para ayudarnos a mejorar la aplicación.
-Google Analytics se utiliza de forma seudónima y ningún contenido de currículum se transmite a los proveedores de analítica.
+**Importante:** El contenido de tus documentos, los ajustes del documento y las imágenes que subas *nunca* se incluyen
+en los eventos de analítica. Solo recopilamos información técnica seudónima para ayudarnos a mejorar la app.
+Google Analytics se usa de forma seudónima y ningún contenido de documentos se transmite a los proveedores de analítica.
 Al usar la versión alojada, aceptas nuestra [Política de Privacidad](./privacy/).
 
-## Ponte en Contacto
+## Contacto
 
 ¿Tienes preguntas, comentarios o quieres contribuir? ¡Nos encantaría saber de ti!
 Visita [Junian.dev](https://www.junian.dev/){target="_blank" rel="nofollow noopener noreferrer"} o revisa el

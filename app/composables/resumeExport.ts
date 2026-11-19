@@ -95,7 +95,7 @@ export const useResumeExport = () => {
           bottom: styles.marginV / 96,
           left: styles.marginH / 96,
         },
-        metadata: { title: data.curResumeName, creator: 'Markdown Resume' },
+        metadata: { title: data.curResumeName, creator: 'With Markdown' },
         rasterizeInPlace: { scale: 2 },
         imageResolver: async (src) => {
           const res = await fetch(src)

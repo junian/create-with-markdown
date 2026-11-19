@@ -1,4 +1,4 @@
-import { siteConfig } from '../../../configs/siteConfig'
+import { siteConfig } from '../../configs/siteConfig'
 
 export default defineEventHandler((event) => {
   setHeader(event, 'content-type', 'text/plain; charset=utf-8')

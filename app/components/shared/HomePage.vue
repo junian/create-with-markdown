@@ -5,15 +5,20 @@
     <main class="max-w-306 mx-auto px-5 py-12 md:px-10 md:py-16 text-dark-c">
       <!-- Hero Section -->
       <section class="mb-14 text-center">
+        <div class="flex-center mb-6">
+          <span class="flex-center size-16 rounded-2xl bg-[#2563eb] text-white shadow-lg shadow-blue-500/25">
+            <Logo class="text-4xl" />
+          </span>
+        </div>
         <h1 class="text-4xl md:text-5xl font-bold mb-4">
-          <span class="text-brand">Markdown</span> Resume
+          With <span class="text-brand">Markdown</span>
         </h1>
         <p class="text-lg text-light-c max-w-3xl mx-auto">
-          Free online resume maker, allows you to create your resume in minutes with Markdown!
+          {{ $t("landing.desc") }}
         </p>
       </section>
 
-      <!-- Recent Resumes Section -->
+      <!-- Recent Documents Section -->
       <section class="mb-14">
         <div class="flex items-center justify-between mb-6">
           <div class="hstack gap-3">

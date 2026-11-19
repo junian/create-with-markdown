@@ -53,6 +53,8 @@
 </template>
 
 <script setup lang="ts">
+import { siteConfig } from '~~/configs/siteConfig'
+
 // Locale roots (e.g. /sp, /en) are matched by this catch-all route instead of
 // pages/index.vue, so render the home page for them when the slug is empty.
 const route = useRoute()
@@ -110,6 +112,6 @@ const lastModifiedText = computed(() => {
 })
 
 useHead(() => ({
-  title: page.value ? `${page.value.title} — Markdown Resume` : undefined,
+  title: page.value ? `${page.value.title} — ${siteConfig.name}` : undefined,
 }))
 </script>

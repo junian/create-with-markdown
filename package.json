@@ -1,8 +1,8 @@
 {
-  "name": "markdown-resume",
-  "version": "0.1.1",
+  "name": "with-markdown",
+  "version": "0.1.0",
   "private": true,
-  "repository": "git@github.com:junian/markdown-resume.git",
+  "repository": "git@github.com:junian/create-with-markdown.git",
   "author": "Junian Triajianto <author@junian.dev>",
   "packageManager": "pnpm@12.16.1",
   "type": "module",
