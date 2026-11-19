@@ -34,6 +34,7 @@ settings:
   usage: 使用量
   quota: 配额
   resumes: 文档
+  slides: 幻灯片
   images: 图片
   storage_estimate_note: 存储配额为估算值，可能因设备和浏览器而异。
   storage_unavailable: 此浏览器不支持存储空间估算。
@@ -42,7 +43,7 @@ settings:
   cached_icons: 已缓存图标
   clear_svg_cache: 清除 SVG 缓存
   danger_zone: 危险区域
-  danger_description: 永久删除存储在此设备上的所有文档、图片和应用设置。
+  danger_description: 永久删除存储在此设备上的所有文档、幻灯片、图片和应用设置。
   erase_all_data: 清除所有内容和设置
   erase_warning: 此操作将删除所有数据并将本应用恢复至出厂状态，且无法撤销。
   type_delete: 输入 DELETE 以确认。
@@ -91,6 +92,23 @@ resumes:
   rename: 重命名
   duplicate: 创建副本
   delete: 删除
+
+slides:
+  my_slides: 我的幻灯片
+  description: 使用 Markdown 和 Marp 制作并演示幻灯片。
+  new: 新建
+  slide_count: "{count} 张幻灯片"
+  theme: 主题
+  rendering: 正在渲染幻灯片...
+  previous: 上一张
+  next: 下一张
+  present: 演示
+  exit_present: 退出演示
+  export_pdf: 导出为 PDF
+  export_html: 导出为 HTML
+  export_md: 导出为 Markdown
+  saveas: 备份数据库...
+  restore: 恢复数据库...
 
 import:
   title: 上传一个文件
@@ -160,6 +178,10 @@ notification:
   delete: 已删除文档 "{msg}"
   new: 新建文档成功
   duplicate: 已创建文档 "{old}" 的副本 "{new}"
+  slide_switch: 已切换到幻灯片 "{msg}"
+  slide_delete: 已删除幻灯片 "{msg}"
+  slide_new: 新建幻灯片成功
+  slide_duplicate: 已创建幻灯片 "{old}" 的副本 "{new}"
   correct:
     yes: 成功修正 {num} 个单词
     no: 所有拼写均已正确！

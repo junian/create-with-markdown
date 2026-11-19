@@ -4,6 +4,15 @@ This changelog summarizes the project from its initial commit through the latest
 
 ## 2026
 
+### November 19 — Presentation slides with Marp
+
+- Added a **My Slides** section for creating, duplicating, renaming, deleting, backing up, and restoring Marp slide decks.
+- Added a slide editor with Monaco Markdown editing, a live 16:9 slide preview, slide navigation, autosave, and full-screen presenting.
+- Added a theme picker for the bundled Marp themes: Default, Gaia, and Uncover.
+- Added exports for PDF (one 16:9 page per slide), a standalone HTML presentation with keyboard navigation, and Markdown.
+- Slide decks are stored locally, counted in Settings, and cleared by the erase-all action.
+- Fixed the service-worker navigation fallback so deep links and reloads (e.g. `/slides/<id>`) boot the correct route instead of the Home page.
+
 ### November 19 — Rebranded to With Markdown
 
 - Renamed the project from **Markdown Resume** to **With Markdown** as it grows into a general Markdown document editor.

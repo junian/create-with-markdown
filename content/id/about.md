@@ -26,6 +26,7 @@ Jangan salah sangka karena kesederhanaannya — With Markdown memiliki fitur yan
 dari pengolah kata lengkap:
 
 - **Dokumen Apa Pun** — Tulis buku, makalah, resume, laporan, dan catatan di editor yang sama
+- **Slide Presentasi** — Ubah Markdown menjadi dek Marp dan presentasikan layar penuh
 - **Pratinjau Real-time** — Lihat halaman berhalaman yang akurat saat mencetak selagi Anda menulis
 - **Berbagai Format Ekspor** — Ekspor ke PDF, HTML, Markdown, atau MS Word (DOCX)
 - **Kontrol Halaman** — A4 atau US Letter, margin, jarak baris, font, dan warna tema

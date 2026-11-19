@@ -30,6 +30,7 @@ Highly recommend using Chromium-based browsers, e.g., [Chrome][chrome] or [Micro
 ## Features
 
 - Write any document in Markdown and preview real pages as you type
+- Presentation slides with [Marp](https://marp.app): write a deck in Markdown, present it full screen, and export to PDF or a standalone HTML deck
 - Works offline ([PWA][pwa])
 - Export to PDF, Markdown, self-contained HTML, and DOCX
 - Export to A4 and US Letter paper sizes
@@ -52,6 +53,12 @@ Highly recommend using Chromium-based browsers, e.g., [Chrome][chrome] or [Micro
 - Local storage usage estimates, refresh controls, and a protected factory-reset action
 - Data is saved locally in your browser using IndexedDB browser feature (see [`localForage` repo](https://localforage.github.io/localForage/) for details)
 - **Image Gallery** — upload images and reference them in your document using Markdown or HTML (see below)
+
+## Slides
+
+With Markdown can also turn Markdown into presentation slides using [Marp](https://marp.app/). Open **My Slides**, write your deck with `---` between slides, pick one of the bundled themes (Default, Gaia, or Uncover), then present it full screen or export it as a PDF or a standalone HTML deck.
+
+![Slides editor](./screenshots/slides-editor.png)
 
 ## Icon Support
 

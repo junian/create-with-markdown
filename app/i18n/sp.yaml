@@ -34,6 +34,7 @@ settings:
   usage: Uso
   quota: Cuota
   resumes: Documentos
+  slides: Diapositivas
   images: Imágenes
   storage_estimate_note: La cuota de almacenamiento es una estimación y puede variar según el dispositivo y el navegador.
   storage_unavailable: Las estimaciones de almacenamiento no están disponibles en este navegador.
@@ -42,7 +43,7 @@ settings:
   cached_icons: Iconos en caché
   clear_svg_cache: Vaciar caché de SVG
   danger_zone: Zona de riesgo
-  danger_description: Borra permanentemente todos los documentos, imágenes y ajustes de la app guardados en este dispositivo.
+  danger_description: Borra permanentemente todos los documentos, presentaciones, imágenes y ajustes de la app guardados en este dispositivo.
   erase_all_data: Borrar Todo el Contenido y los Ajustes
   erase_warning: Esta acción eliminará todos los datos y restaurará la app a su estado de fábrica. Esta acción no se puede deshacer.
   type_delete: Escribe DELETE para confirmar.
@@ -91,6 +92,23 @@ resumes:
   rename: Renombrar
   duplicate: Duplicar
   delete: Eliminar
+
+slides:
+  my_slides: Mis Diapositivas
+  description: Crea y presenta diapositivas con Markdown y Marp.
+  new: Nuevo
+  slide_count: "{count} diapositivas"
+  theme: Tema
+  rendering: Renderizando diapositivas...
+  previous: Diapositiva anterior
+  next: Diapositiva siguiente
+  present: Presentar
+  exit_present: Salir de la presentación
+  export_pdf: Exportar PDF
+  export_html: Exportar HTML
+  export_md: Exportar Markdown
+  saveas: Respaldar BD ...
+  restore: Restaurar BD ...
 
 import:
   title: Importar un archivo
@@ -160,6 +178,10 @@ notification:
   delete: El documento "{msg}" ha sido eliminado
   new: Nuevo documento creado
   duplicate: Se ha creado la copia "{new}" del documento "{old}"
+  slide_switch: Cambiado a las diapositivas "{msg}"
+  slide_delete: Las diapositivas "{msg}" han sido eliminadas
+  slide_new: Nueva presentación creada
+  slide_duplicate: Se ha creado la copia "{new}" de las diapositivas "{old}"
   correct:
     yes: Se han corregido {num} palabras
     no: ¡Todo el texto ya estaba correcto!

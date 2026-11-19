@@ -56,9 +56,10 @@ export const pwa: ModuleOptions = {
   workbox: {
     cacheId: siteConfig.cacheId,
     importScripts: ['sw-images.js'],
-    // Use Nuxt's route-neutral SPA shell instead of the Home document when a
-    // static host needs the service worker to resolve a deep link.
-    navigateFallback: `${scope}`,
+    // Use Nuxt's route-neutral SPA shell (200.html) instead of the
+    // prerendered Home document, so reloading a deep link (e.g. a slide deck
+    // at /slides/<id>) boots the router instead of landing on Home.
+    navigateFallback: `${scope}200`,
     globPatterns: ['**/*.{js,css,html,otf,ttf,woff2,png,svg}'],
     // Social preview art is only fetched by crawlers, so keep it out of the
     // install-time precache.

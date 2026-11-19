@@ -244,6 +244,16 @@
                   <dd class="storage-skeleton storage-skeleton--value" />
                 </template>
                 <template v-else>
+                  <dt>{{ $t("settings.slides") }}</dt>
+                  <dd>{{ slideCount }}</dd>
+                </template>
+              </div>
+              <div class="storage-stat">
+                <template v-if="isRefreshingStorage">
+                  <dt class="storage-skeleton storage-skeleton--label" />
+                  <dd class="storage-skeleton storage-skeleton--value" />
+                </template>
+                <template v-else>
                   <dt>{{ $t("settings.images") }}</dt>
                   <dd>{{ imageCount }}</dd>
                 </template>
@@ -404,6 +414,7 @@ const storageSupported = ref(true)
 const storageUsage = ref(0)
 const storageQuota = ref(0)
 const resumeCount = ref(0)
+const slideCount = ref(0)
 const imageCount = ref(0)
 const isRefreshingStorage = ref(false)
 const cachedSvgCount = ref(0)
@@ -432,6 +443,7 @@ const eraseAllData = async () => {
   isErasing.value = true
   await Promise.all([
     clearResumeStorage(),
+    clearSlideStorage(),
     clearImageStorage(),
     clearIconifySvgCache(),
   ])
@@ -462,11 +474,12 @@ const refreshStorageEstimate = async () => {
   const minimumDelay = new Promise(resolve => window.setTimeout(resolve, 800))
   let estimate: StorageEstimate | undefined
   let resumes: Awaited<ReturnType<typeof getResumeList>> = []
+  let slides: Awaited<ReturnType<typeof getSlideList>> = []
   let images: Awaited<ReturnType<typeof getImageList>> = []
   let isSupported = Boolean(navigator.storage?.estimate)
 
   try {
-    [estimate, resumes, images] = await Promise.all([
+    [estimate, resumes, slides, images] = await Promise.all([
       isSupported
         ? navigator.storage.estimate().catch(() => {
             isSupported = false
@@ -474,6 +487,7 @@ const refreshStorageEstimate = async () => {
           })
         : Promise.resolve(undefined),
       getResumeList().catch(() => []),
+      getSlideList().catch(() => []),
       getImageList().catch(() => []),
     ])
   }
@@ -482,6 +496,7 @@ const refreshStorageEstimate = async () => {
     storageUsage.value = estimate?.usage || 0
     storageQuota.value = estimate?.quota || 0
     resumeCount.value = resumes.length
+    slideCount.value = slides.length
     imageCount.value = images.length
     storageSupported.value = isSupported
     isRefreshingStorage.value = false

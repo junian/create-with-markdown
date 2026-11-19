@@ -34,6 +34,7 @@ settings:
   usage: Usage
   quota: Quota
   resumes: Documents
+  slides: Slides
   images: Images
   storage_estimate_note: Storage quota is an estimate and may vary by device and browser.
   storage_unavailable: Storage estimates are not available in this browser.
@@ -42,7 +43,7 @@ settings:
   cached_icons: Cached Icons
   clear_svg_cache: Clear SVG Cache
   danger_zone: Danger Zone
-  danger_description: Permanently erase every document, image, and app setting stored on this device.
+  danger_description: Permanently erase every document, slide deck, image, and app setting stored on this device.
   erase_all_data: Erase All Content and Settings
   erase_warning: This action will remove all data and return this app to its factory state. This cannot be undone.
   type_delete: Type DELETE to confirm.
@@ -91,6 +92,23 @@ resumes:
   rename: Rename
   duplicate: Duplicate
   delete: Delete
+
+slides:
+  my_slides: My Slides
+  description: Build and present slide decks with Markdown and Marp.
+  new: New
+  slide_count: "{count} slides"
+  theme: Theme
+  rendering: Rendering slides...
+  previous: Previous slide
+  next: Next slide
+  present: Present
+  exit_present: Exit presentation
+  export_pdf: Export PDF
+  export_html: Export HTML
+  export_md: Export Markdown
+  saveas: Backup DB ...
+  restore: Restore DB ...
 
 import:
   title: Import a file
@@ -160,6 +178,10 @@ notification:
   delete: Document "{msg}" has been deleted
   new: New document created
   duplicate: Created copy "{new}" of document "{old}"
+  slide_switch: Switched to slides "{msg}"
+  slide_delete: Slides "{msg}" have been deleted
+  slide_new: New slide deck created
+  slide_duplicate: Created copy "{new}" of slides "{old}"
   correct:
     yes: Corrected {num} words
     no: All cases are correct!

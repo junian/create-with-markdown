@@ -27,6 +27,7 @@ Don't let the simplicity fool you — With Markdown packs the features you expec
 a full word processor:
 
 - **Any Document** — Write books, papers, resumes, reports, and notes in the same editor
+- **Presentation Slides** — Turn Markdown into a Marp deck and present it full screen
 - **Real-time Preview** — See a paginated, print-accurate page as you type
 - **Multiple Export Formats** — Export to PDF, HTML, Markdown, or MS Word (DOCX)
 - **Page Controls** — A4 or US Letter, margins, line height, fonts, and theme colors

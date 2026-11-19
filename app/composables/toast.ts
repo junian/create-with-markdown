@@ -30,6 +30,37 @@ export const useAppToast = () => {
     })
   }
 
+  const switchSlides = (msg: string) => {
+    toast.add({
+      description: t('notification.slide_switch', { msg }),
+      color: 'info',
+    })
+  }
+
+  const deleteSlides = (msg: string) => {
+    toast.add({
+      description: t('notification.slide_delete', { msg }),
+      color: 'error',
+    })
+  }
+
+  const newSlides = () => {
+    toast.add({
+      description: t('notification.slide_new'),
+      color: 'success',
+    })
+  }
+
+  const duplicateSlides = (msg: string, newName: string) => {
+    toast.add({
+      description: t('notification.slide_duplicate', {
+        old: msg,
+        new: newName,
+      }),
+      color: 'success',
+    })
+  }
+
   const duplicate = (msg: string, newName: string) => {
     toast.add({
       description: t('notification.duplicate', {
@@ -116,6 +147,10 @@ export const useAppToast = () => {
     delete: deleteResume,
     new: newResume,
     duplicate,
+    switchSlides,
+    deleteSlides,
+    newSlides,
+    duplicateSlides,
     correct,
     migrateIconify,
     import: importResume,

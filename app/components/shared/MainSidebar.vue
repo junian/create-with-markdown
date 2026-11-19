@@ -156,6 +156,11 @@ const navItems = computed<NavigationMenuItem[][]>(() => [
       to: '/resumes',
     },
     {
+      label: t('slides.my_slides'),
+      icon: 'i-material-symbols:slideshow',
+      to: '/slides',
+    },
+    {
       label: t('images.my_images'),
       icon: 'i-ic:outline-photo-library',
       to: '/images',

@@ -26,6 +26,7 @@ No te dejes engañar por su sencillez: With Markdown incluye las funciones que e
 de un procesador de textos completo:
 
 - **Cualquier documento** — Escribe libros, artículos, currículums, informes y notas en el mismo editor
+- **Diapositivas** — Convierte Markdown en una presentación Marp y proyéctala a pantalla completa
 - **Vista previa en tiempo real** — Ve una página paginada y fiel a la impresión mientras escribes
 - **Múltiples formatos de exportación** — Exporta a PDF, HTML, Markdown o MS Word (DOCX)
 - **Control de página** — A4 o US Letter, márgenes, interlineado, fuentes y colores del tema

@@ -64,6 +64,52 @@
         </div>
       </section>
 
+      <!-- Recent Slides Section -->
+      <section class="mb-14">
+        <div class="flex items-center justify-between mb-6">
+          <div class="hstack gap-3">
+            <span class="circle size-9 shrink-0 bg-brand text-white">
+              <UIcon
+                name="i-material-symbols:slideshow"
+                class="text-lg"
+              />
+            </span>
+            <div>
+              <h2 class="text-2xl font-bold">
+                {{ $t("slides.my_slides") }}
+              </h2>
+              <p class="mt-0.5 text-sm text-light-c">
+                {{ $t("slides.description") }}
+              </p>
+            </div>
+          </div>
+          <ULink
+            raw
+            class="hstack gap-1.5 px-4 py-2 rounded-lg border border-c text-sm font-medium hover:bg-darker-c transition-colors"
+            to="/slides"
+          >
+            <span>{{ $t("nav.see_more") }}</span>
+            <UIcon
+              name="i-tabler:arrow-right"
+              class="text-base"
+            />
+          </ULink>
+        </div>
+
+        <div class="slides-row-wrap">
+          <div class="slides-row">
+            <NewSlide />
+            <SlideItem
+              v-for="slide in recentSlides"
+              :key="slide.id"
+              class="shrink-0"
+              :slide="slide"
+              @update="loadSlides"
+            />
+          </div>
+        </div>
+      </section>
+
       <!-- Recent Images Section -->
       <section>
         <div class="flex items-center justify-between mb-6">
@@ -117,15 +163,17 @@
 </template>
 
 <script lang="ts" setup>
-import type { ResumeListItem, ImageListItem } from '~/types'
+import type { ResumeListItem, ImageListItem, SlideListItem } from '~/types'
 
 const RECENT_COUNT = 5
 
 const resumeList = ref<ResumeListItem[]>()
 const imageList = ref<ImageListItem[]>()
+const slideList = ref<SlideListItem[]>()
 
 const recentResumes = computed(() => resumeList.value?.slice(0, RECENT_COUNT))
 const recentImages = computed(() => imageList.value?.slice(0, RECENT_COUNT))
+const recentSlides = computed(() => slideList.value?.slice(0, RECENT_COUNT))
 
 const loadResumes = async () => {
   resumeList.value = await getResumeList()
@@ -135,7 +183,11 @@ const loadImages = async () => {
   imageList.value = await getImageList(false)
 }
 
+const loadSlides = async () => {
+  slideList.value = await getSlideList()
+}
+
 onMounted(async () => {
-  await Promise.all([loadResumes(), loadImages()])
+  await Promise.all([loadResumes(), loadImages(), loadSlides()])
 })
 </script>

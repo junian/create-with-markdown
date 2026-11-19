@@ -69,6 +69,23 @@ export interface ImageListItem extends ImageStorageItem {
   id: string
 }
 
+export type SlideTheme = 'default' | 'gaia' | 'uncover'
+
+export type SlideStorageItem = {
+  name: string
+  markdown: string
+  theme: SlideTheme
+  update: string
+}
+
+export type SlideStorage = {
+  [id: string]: SlideStorageItem
+}
+
+export interface SlideListItem extends SlideStorageItem {
+  id: string
+}
+
 export type ComboboxItem = {
   label: string
   value: string
