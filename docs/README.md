@@ -58,8 +58,6 @@ Highly recommend using Chromium-based browsers, e.g., [Chrome][chrome] or [Micro
 
 With Markdown can also turn Markdown into presentation slides using [Marp](https://marp.app/). Open **My Slides**, write your deck with `---` between slides, pick one of the bundled themes (Default, Gaia, or Uncover), then present it full screen or export it as a PDF or a standalone HTML deck.
 
-![Slides editor](./screenshots/slides-editor.png)
-
 ## Icon Support
 
 Add icons to your document with Markdown syntax, e.g. `::mdi:home::`. Search icons on [Icônes](https://icones.js.org/) and use the Iconify icon names.
